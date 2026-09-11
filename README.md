@@ -27,7 +27,7 @@ The purpose of this lab is to create a controlled virtual networking environment
 | Virtualization Platform | Oracle VirtualBox |
 | Network Type | NAT Network |
 | Network Name | `NatNetwork` |
-| IPv4 Prefix | `10.0.2.0/24` |
+| IPv4 Prefix | `10.0.0.2/24` |
 | DHCP | Enabled |
 | IPv6 | Disabled |
 
@@ -41,7 +41,7 @@ A NAT Network named `NatNetwork` was configured in Oracle VirtualBox.
 
 ```text
 Network Name : NatNetwork
-IPv4 Prefix  : 10.0.2.0/24
+IPv4 Prefix  : 10.0.0.2/24
 DHCP         : Enabled
 IPv6         : Disabled
 ```
@@ -49,7 +49,7 @@ IPv4 Network
 
 The configured IPv4 network is:
 
-10.0.2.0/24
+10.0.0.2/24
 
 The corresponding subnet mask is:
 
@@ -59,7 +59,7 @@ DHCP is enabled to allow virtual machines connected to the NAT Network to obtain
 
 The configuration shows:
 
-IPv4 Prefix: 10.0.2.0/24
+IPv4 Prefix: 10.0.0.2/24
 DHCP: Enabled
 IPv6: Disabled
 🪜 Configuration Steps
@@ -78,7 +78,7 @@ Create a new NAT Network with the following name:
 NatNetwork
 Step 4: Configure IPv4
 
-Set the IPv4 prefix to:10.0.2.0/24
+Set the IPv4 prefix to:10.0.0.2/24
 Step 5: Enable DHCP
 
 Enable DHCP to allow connected virtual machines to automatically receive IPv4 addresses.
@@ -89,7 +89,7 @@ IPv6 is disabled for the current laboratory configuration.
 
 🔎 Network Information
 Setting	Value
-Network Address	10.0.2.0
+Network Address	10.0.0.2
 CIDR	/24
 Subnet Mask	255.255.255.0
 DHCP	Enabled
@@ -141,7 +141,7 @@ Security testing must not be performed against systems without proper authorizat
 Sangamithra P
 
 Cybersecurity Learner | Offensive Security & VAPT
-
+http://www.linkedin.com/in/sangamithra78
 📌 Project Status
 
 Status: Initial NAT Network Configuration Completed
